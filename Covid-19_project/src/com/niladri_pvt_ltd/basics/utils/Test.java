@@ -17,7 +17,7 @@ public static void main(String[] args) {
 	PersonDao personDao = new PersonDao();
 	personDao.savePerson(person);
 	
-	/*
+	
 	PersonDao personDao = new PersonDao();
 	Person persondb = personDao.getPersonDetails(113012);
 	System.out.println(persondb);
@@ -29,6 +29,6 @@ public static void main(String[] args) {
 	
 	PersonDao personDao = new PersonDao();
 	personDao.deletePerson(113012);
-	*/
+	
 }
 }
